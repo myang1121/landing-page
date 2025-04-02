@@ -125,6 +125,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 .bottom-section p {
     font-weight: 300;
@@ -132,10 +133,13 @@ h2 {
     color: rgb(104, 103, 103);
     font-size: 36px;
     margin-bottom: 0px;
-    max-width: 750px;
+    max-width: 780px;
+    flex-shrink: 0;
+    
 }
 .bottom-section h3 {
-    max-width: 750px;
+    max-width: 780px;
+    flex-shrink: 0;
 }
 
 /* Call to Action Section */
@@ -152,6 +156,10 @@ h2 {
     flex-shrink: 0;
     align-self: center;
 
+}
+.call-to-action-left,
+.call-to-action-right {
+    flex-shrink: 0;
 }
 .call-to-action-left h3 {
     margin-bottom: 0px;
@@ -173,6 +181,7 @@ h2 {
     border-style: solid;
     border-color: #F9FAF8;
     border-width: 100;
+    
 
     
 }
@@ -185,4 +194,5 @@ h6 {
     color: #F9FAF8;
     font-weight: 300;
     text-align: center;
+    flex-shrink: 0;
 }
